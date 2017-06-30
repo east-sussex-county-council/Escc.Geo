@@ -53,6 +53,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="LatitudeLongitudeToOrdnanceSurveyConverterTests.cs" />
     <Compile Include="OrdnanceSurveyToLatitudeLongitudeConverterTests.cs" />
     <Compile Include="DistanceCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

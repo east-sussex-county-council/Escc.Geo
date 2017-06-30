@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LatitudeLongitudeToOrdnanceSurveyConverter.cs" />
+    <Compile Include="OrdnanceSurveyCoordinate.cs" />
     <Compile Include="OrdnanceSurveyToLatitudeLongitudeConverter.cs" />
     <Compile Include="DistanceCalculator.cs" />
     <Compile Include="LatitudeLongitude.cs" />
