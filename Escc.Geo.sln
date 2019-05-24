@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escc.Geo", "Escc.Geo\Escc.Geo.csproj", "{E8E262B5-A2E8-460F-B65D-E53BF94A0EAF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escc.Geo.Tests", "Escc.Geo.Tests\Escc.Geo.Tests.csproj", "{C5CEA458-B1DA-46CB-9C9B-71800C917954}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{04F6187E-4620-47F9-95ED-7EC7972C8FFD}"
@@ -13,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{E09DD79A-4488-4AB9-8D3F-A7EEE78BF432}") = "Escc.Geo.NuGet", "Escc.Geo.NuGet\Escc.Geo.NuGet.nuproj", "{B70E29CE-0226-4223-8E82-F9F4CD1A0498}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escc.Geo", "Escc.Geo\Escc.Geo.csproj", "{E56DB613-3FCC-4336-9EF0-5883B87249F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,20 +19,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E8E262B5-A2E8-460F-B65D-E53BF94A0EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E8E262B5-A2E8-460F-B65D-E53BF94A0EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E8E262B5-A2E8-460F-B65D-E53BF94A0EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E8E262B5-A2E8-460F-B65D-E53BF94A0EAF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5CEA458-B1DA-46CB-9C9B-71800C917954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C5CEA458-B1DA-46CB-9C9B-71800C917954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5CEA458-B1DA-46CB-9C9B-71800C917954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5CEA458-B1DA-46CB-9C9B-71800C917954}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B70E29CE-0226-4223-8E82-F9F4CD1A0498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B70E29CE-0226-4223-8E82-F9F4CD1A0498}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B70E29CE-0226-4223-8E82-F9F4CD1A0498}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B70E29CE-0226-4223-8E82-F9F4CD1A0498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56DB613-3FCC-4336-9EF0-5883B87249F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56DB613-3FCC-4336-9EF0-5883B87249F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56DB613-3FCC-4336-9EF0-5883B87249F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56DB613-3FCC-4336-9EF0-5883B87249F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BA74717-02CD-42FA-853F-032897391DEE}
 	EndGlobalSection
 EndGlobal
